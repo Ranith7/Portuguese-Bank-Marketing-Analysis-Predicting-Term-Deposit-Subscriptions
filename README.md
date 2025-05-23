@@ -8,14 +8,13 @@ This project focuses on predicting whether a customer will subscribe to a term d
 
 Portuguese-Bank-Marketing-Analysis/
 │
-├── Portuguese Prediction/ # Main folder for model training and evaluation
-│ ├── Dataset/
-│ │ └── bank-additional-full.csv # The dataset used for prediction
-│ ├── Notebook/
-│ │ └── Portuguese Prediction.ipynb # Jupyter Notebook with complete analysis
-│ └── Introduction/
-│ └── Project_Intro.docx # Project introduction and business understanding
-
+├── Portuguese Prediction/                     # Main folder for model training and evaluation
+│   ├── Dataset/
+│   │   └── bank-additional-full.csv           # The dataset used for prediction
+│   ├── Notebook/
+│   │   └── Portuguese Prediction.ipynb        # Jupyter Notebook with complete analysis
+│   └── Introduction/
+│       └── Project_Intro.docx                 # Project introduction and business understanding
 
 ---
 
