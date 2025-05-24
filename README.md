@@ -5,41 +5,43 @@ This project focuses on predicting whether a customer will subscribe to a term d
 ---
 
 ## 🗂️ Project Structure
+
+```
 Portuguese-Bank-Marketing-Prediction/
 │
 ├── 📁 data/
-│   ├── raw/                         # Original dataset
+│   ├── 📁 raw/                     # Original dataset
 │   │   └── bank-additional-full.csv
-│   ├── processed/                   # Cleaned & preprocessed data
-│   └── external/                    # Additional files if any (e.g., SMOTE outputs)
+│   ├── 📁 processed/               # Cleaned & preprocessed data
+│   └── 📁 external/                # Additional files (e.g., SMOTE output)
 │
 ├── 📁 notebooks/
-│   └── 01_EDA_and_Modeling.ipynb   # Main notebook with EDA, preprocessing, modeling
+│   └── 01_EDA_and_Modeling.ipynb  # Main notebook for EDA & modeling
 │
-├── 📁 src/                          # Source code for scripts
+├── 📁 src/                         # Python scripts
 │   ├── __init__.py
-│   ├── data_preprocessing.py       # Data cleaning, encoding, feature scaling
-│   ├── eda.py                      # Functions for charts and data exploration
-│   ├── model_training.py           # Model training and evaluation logic
-│   └── utils.py                    # Helper functions (metrics, visualizations, etc.)
+│   ├── data_preprocessing.py      # Cleaning, encoding, scaling
+│   ├── eda.py                     # Exploratory Data Analysis functions
+│   ├── model_training.py          # Model training and evaluation
+│   └── utils.py                   # Common helper functions
 │
 ├── 📁 reports/
-│   ├── figures/                    # All graphs and plots used in the report
-│   └── final_report.pdf           # Final summarized report (optional: .ppt or .docx)
+│   ├── 📁 figures/                 # All graphs and charts used
+│   └── final_report.pdf           # Optional: final report or presentation
 │
 ├── 📁 models/
-│   └── best_model.pkl             # Serialized model file (via pickle or joblib)
+│   └── best_model.pkl             # Saved model (pickle or joblib)
 │
 ├── 📁 docs/
-│   └── project_introduction.md    # Business problem, dataset overview, goals
+│   └── project_introduction.md    # Business understanding and problem overview
 │
 ├── 📁 config/
-│   └── config.yaml                # Configuration file for paths, model parameters
+│   └── config.yaml                # Configuration settings (paths, parameters)
 │
-├── requirements.txt               # Python dependencies
-├── README.md                      # Main README with overview, setup, usage
-└── .gitignore                     # Files/folders to ignore in version control
-
+├── requirements.txt               # Python libraries used
+├── README.md                      # Project overview, usage instructions
+└── .gitignore                     # Files to exclude from version control
+```
 
 ## 📌 Problem Statement
 
