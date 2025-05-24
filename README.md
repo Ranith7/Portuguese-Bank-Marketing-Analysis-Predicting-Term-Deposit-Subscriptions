@@ -5,18 +5,41 @@ This project focuses on predicting whether a customer will subscribe to a term d
 ---
 
 ## 🗂️ Project Structure
-
-Portuguese-Bank-Marketing-Analysis/
+Portuguese-Bank-Marketing-Prediction/
 │
-├── Portuguese Prediction/                     # Main folder for model training and evaluation
-│   ├── Dataset/
-│   │   └── bank-additional-full.csv           # The dataset used for prediction
-│   ├── Notebook/
-│   │   └── Portuguese Prediction.ipynb        # Jupyter Notebook with complete analysis
-│   └── Introduction/
-│       └── Project_Intro.docx                 # Project introduction and business understanding
+├── 📁 data/
+│   ├── raw/                         # Original dataset
+│   │   └── bank-additional-full.csv
+│   ├── processed/                   # Cleaned & preprocessed data
+│   └── external/                    # Additional files if any (e.g., SMOTE outputs)
+│
+├── 📁 notebooks/
+│   └── 01_EDA_and_Modeling.ipynb   # Main notebook with EDA, preprocessing, modeling
+│
+├── 📁 src/                          # Source code for scripts
+│   ├── __init__.py
+│   ├── data_preprocessing.py       # Data cleaning, encoding, feature scaling
+│   ├── eda.py                      # Functions for charts and data exploration
+│   ├── model_training.py           # Model training and evaluation logic
+│   └── utils.py                    # Helper functions (metrics, visualizations, etc.)
+│
+├── 📁 reports/
+│   ├── figures/                    # All graphs and plots used in the report
+│   └── final_report.pdf           # Final summarized report (optional: .ppt or .docx)
+│
+├── 📁 models/
+│   └── best_model.pkl             # Serialized model file (via pickle or joblib)
+│
+├── 📁 docs/
+│   └── project_introduction.md    # Business problem, dataset overview, goals
+│
+├── 📁 config/
+│   └── config.yaml                # Configuration file for paths, model parameters
+│
+├── requirements.txt               # Python dependencies
+├── README.md                      # Main README with overview, setup, usage
+└── .gitignore                     # Files/folders to ignore in version control
 
----
 
 ## 📌 Problem Statement
 
